@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/dist/output.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <nav class="bg-gray-700">
+    <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+      <div class="relative flex items-center justify-between h-16">
+        <div class="flex items-center justify-center sm:items-stretch sm:justify-start">
+          <div class="flex-shrink-0">
+            <a href="#" class="text-white text-xl font-bold">My Portfolio</a>
+          </div>
+          <div class="hidden sm:block sm:ml-6">
+            <div class="flex space-x-4">
+              <a href="#home" class="text-gray-200 hover:bg-gray-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+              <a href="#contact" class="text-gray-200 hover:bg-gray-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+            </div>
+          </div>
+        </div>
+        <div class="hidden sm:block sm:ml-6">
+          <div class="flex items-center">
+            <a href="#" class="bg-white text-gray-800 hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium">Contact Me</a>
+          </div>
+        </div>
+        <div class="-mr-2 flex sm:hidden">
+          <button id="mobile-menu-button" type="button" class="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+            <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden sm:hidden" id="mobile-menu">
+      <div class="px-2 pt-2 pb-3 space-y-1">
+        <a href="#home" class="text-gray-300 hover:bg-gray-800 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
+        <a href="#contact" class="text-gray-300 hover:bg-gray-800 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="bg-gray-100 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="lg:flex lg:items-center lg:justify-between">
+        <div class="lg:w-1/2">
+          <h2 class="text-4xl font-extrabold text-gray-800">Halo...!</h2>
+          <h4 class="text-2xl font-bold text-gray-800">Saya Afriansyah Septyarno</h4>
+          <p class="mt-4 text-gray-600">Saya seorang yang tertarik dengan teknologi dan pengembangan web. Saya memiliki pengalaman dalam menggunakan berbagai teknologi termasuk HTML, CSS, dan JavaScript. Saya juga memiliki keahlian dalam menggunakan framework seperti React dan Laravel.</p>
+          <div class="mt-8">
+            <a href="#contact" class="text-white bg-blue-500 hover:bg-blue-600 py-2 px-4 rounded-md text-sm font-medium">Hubungi Saya</a>
+          </div>
+        </div>
+        <div class="mt-8 lg:mt-0 lg:w-1/2">
+          <img class="rounded-full mx-auto h-64 w-64 object-cover" src="/dist/img/profil.png" alt="Foto Anda">
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+
+  <section class="bg-gray-100 py-5">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold mb-8 text-center">Skills</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3">
+        <div class="p-4 bg-white shadow rounded-lg flex items-center mx-4 mb-4">
+          <img src="/dist/img/html.png" alt="HTML Icon" class="h-10 w-10 rounded-full mr-4">
+          <div>
+            <h3 class="text-lg font-semibold">HTML</h3>
+            <p class="text-gray-500">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="p-4 bg-white shadow rounded-lg flex items-center mx-4 mb-4">
+          <img src="/dist/img/css.png" alt="CSS Icon" class="h-10 w-10 rounded-full mr-4">
+          <div>
+            <h3 class="text-lg font-semibold">CSS</h3>
+            <p class="text-gray-500">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="p-4 bg-white shadow rounded-lg flex items-center mx-4 mb-4">
+          <img src="/dist/img/php.png" alt="PHP Icon" class="h-10 w-10 rounded-full mr-4">
+          <div>
+            <h3 class="text-lg font-semibold">PHP</h3>
+            <p class="text-gray-500">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="p-4 bg-white shadow rounded-lg flex items-center mx-4 mb-4">
+          <img src="/dist/img/js.png" alt="JavaScript Icon" class="h-10 w-10 rounded-full mr-4">
+          <div>
+            <h3 class="text-lg font-semibold">JavaScript</h3>
+            <p class="text-gray-500">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gray-100 py-5">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold mb-8 text-center">Technologies</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3">
+        <div class="p-4 bg-white shadow rounded-lg flex items-center mx-4 mb-4">
+          <img src="/dist/img/laravel.png" alt="Laravel" class="h-10 w-10 rounded-full mr-4">
+          <div>
+            <h3 class="text-lg font-semibold">Laravel</h3>
+            <p class="text-gray-500">Powerful PHP framework</p>
+          </div>
+        </div>
+        <div class="p-4 bg-white shadow rounded-lg flex items-center mx-4 mb-4">
+          <img src="/dist/img/tailwind.png" alt="Tailwind CSS" class="h-10 w-10 rounded-full mr-4">
+          <div>
+            <h3 class="text-lg font-semibold">Tailwind CSS</h3>
+            <p class="text-gray-500">Utility-first CSS framework</p>
+          </div>
+        </div>
+        <div class="p-4 bg-white shadow rounded-lg flex items-center mx-4 mb-4">
+          <img src="/dist/img/codeigniter.png" alt="CodeIgniter" class="h-10 w-10 rounded-full mr-4">
+          <div>
+            <h3 class="text-lg font-semibold">CodeIgniter</h3>
+            <p class="text-gray-500">PHP framework with a small footprint</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gray-100 py-5">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold mb-8 text-center">Database</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3">
+        <div class="p-4 bg-white shadow rounded-lg flex items-center mx-4 mb-4">
+          <img src="/dist/img/mysql.png" alt="CodeIgniter" class="h-10 w-10 rounded-full mr-4">
+          <div>
+            <h3 class="text-lg font-semibold">MySQL</h3>
+            <p class="text-gray-500">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="p-4 bg-white shadow rounded-lg flex items-center mx-4 mb-4">
+          <img src="/dist/img/postgresql.png" alt="CodeIgniter" class="h-10 w-10 rounded-full mr-4">
+          <div>
+            <h3 class="text-lg font-semibold">PostgreSQL</h3>
+            <p class="text-gray-500">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-gray-100 py-5">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold mb-6 text-center">Contact Me</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 px-6">
+        <div>
+          <h3 class="text-xl font-semibold mb-2">Contact Information</h3>
+          <ul class="list-disc pl-6">
+            <li>Email: afriansyah1109@gmail.com</li>
+            <li>Phone: +6285861564130</li>
+            <li>Address: Plosolor RT 02/09, Plosorejo, Matesih, Karanganyar</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold mb-2">Social Media</h3>
+          <ul class="list-disc pl-6">
+            <li><a href="#">Tiktok</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="bg-gray-800 py-6">
+    <div class="container mx-auto text-center">
+      <p class="text-gray-300 text-sm">© 2023 Afriansyah Septyarno. All rights reserved.</p>
+    </div>
+  </footer>
+  
+
+  
+  <script>
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+  
+    mobileMenuButton.addEventListener('click', function() {
+      const expanded = mobileMenuButton.getAttribute('aria-expanded') === 'true' || false;
+      mobileMenuButton.setAttribute('aria-expanded', !expanded);
+      mobileMenu.classList.toggle('hidden', expanded);
+    });
+  </script>
+  
+  
+</body>
+</html>
